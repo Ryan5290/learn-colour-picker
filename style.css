@@ -41,7 +41,7 @@ body {
 .colour-grid {
     width: 6.875em;
     height: 31.25em;
-    background-color: blue;
+    background-color: white;
 }
 
 .grid-colour {
@@ -56,7 +56,7 @@ body {
 }
 
 .grid-1-colour {
-    background-color: #ffffaa;
+    background-color: #000000;
 }
 .grid-2-colour {
     background-color: #1A1919;

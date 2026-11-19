@@ -11,7 +11,7 @@
     </head>
     <body>
         <section class="colour-op">
-        <input type="color">
+        <input id="colour-picker" type="color">
         <select name="palette-op" id="palette-op">
             <option value="monochrome">Monochrome</option>
             <option value="monochrome-dark">Monochrome-Dark</option>
@@ -22,29 +22,29 @@
             <option value="triad">Triad</option>
             <option value="quad">Quad</option>
         </select>
-        <button>Get colour scheme</button>
+        <button id="colour-btn">Get colour scheme</button>
         </section>
 
         <section class="colours-grid">
             <div class="colour-grid">
-                <div class="grid-colour grid-1-colour"></div>
-                <p class="grid-name grid-1-name">#ffffaa</p>
+                <div class="grid-colour grid-1-colour" id="grid-1-colour"></div>
+                <p class="grid-name grid-1-name" id="grid-1-name">#000000</p>
             </div>
             <div class="colour-grid">
-                <div class="grid-colour grid-2-colour"></div>
-                <p class="grid-name grid-2-name">#1A1919</p>
+                <div class="grid-colour grid-2-colour" id="grid-2-colour"></div>
+                <p class="grid-name grid-2-name" id="grid-2-name">#1A1919</p>
             </div>
             <div class="colour-grid">
-                <div class="grid-colour grid-3-colour"></div>
-                <p class="grid-name grid-3-name">#343232</p>
+                <div class="grid-colour grid-3-colour" id="grid-3-colour"></div>
+                <p class="grid-name grid-3-name" id="grid-3-name">#343232</p>
             </div>
             <div class="colour-grid">
-                <div class="grid-colour grid-4-colour"></div>
-                <p class="grid-name grid-4-name">#4F4A4A</p>
+                <div class="grid-colour grid-4-colour" id="grid-4-colour"></div>
+                <p class="grid-name grid-4-name" id="grid-4-name">#4F4A4A</p>
             </div>
             <div class="colour-grid">
-                <div class="grid-colour grid-5-colour"></div>
-                <p class="grid-name grid-5-name">#6A6262</p>
+                <div class="grid-colour grid-5-colour" id="grid-5-colour"></div>
+                <p class="grid-name grid-5-name" id="grid-5-name">#6A6262</p>
             </div>
             <!-- x5 -->
         </section>
